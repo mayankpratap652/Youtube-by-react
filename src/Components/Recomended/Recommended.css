@@ -1,0 +1,44 @@
+
+.Recommend
+{
+    flex-basis: 30%;
+   
+    padding-left: 1%;
+}
+.Sidesection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.Sidesection img{
+    width: 50%;
+    flex-basis: 49%;
+    border-radius: 5px;
+}
+.vidinfo{
+    margin-left: 6px;
+padding-top: 2px;
+    flex-basis: 49%;
+}
+.vidinfo h4{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.vidinfo p{
+    font-size: 14px;
+    color: #5a5a5a;
+    
+    
+
+}
+@media (max-width:900px) {
+
+    .Recommend{
+        flex-basis: 100%;
+        
+    }
+    
+}
